@@ -8,6 +8,7 @@ COLOR_MIN = 1
 COLOR_MAX = 4
 MAX_TURNS = 12
 
+
 def score(secret, guess):
     """Calcule les pions bien placés (noirs) et mal placés (blancs)."""
     bien_places = sum(1 for a, b in zip(secret, guess) if a == b)
