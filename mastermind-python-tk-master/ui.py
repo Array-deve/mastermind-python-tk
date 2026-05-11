@@ -238,7 +238,7 @@ class MastermindApp(tk.Tk):
                 
         if not hidden:
             for i, val in enumerate(nums):
-                self.secret_pegs[i].configure(bg=COLOR_MAP[val]
+                self.secret_pegs[i].configure(bg=COLOR_MAP[val])
         return nums
 
     def clear_guess(self):
